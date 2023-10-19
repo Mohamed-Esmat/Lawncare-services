@@ -68,7 +68,8 @@ const ContactUs = () => {
         };
 
         const response = await axios.post(
-          '../../../netlify/functions/proxy',
+          // '../../../netlify/functions/proxy',
+          'http://upskilling-egypt.com:3000/contact',
           formData,
           {
             headers: {
