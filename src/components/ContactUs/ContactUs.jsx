@@ -68,7 +68,7 @@ const ContactUs = () => {
         };
 
         const response = await axios.post(
-          'http://upskilling-egypt.com:3000/contact',
+          '/.netlify/functions/proxy',
           formData,
           {
             headers: {
@@ -82,7 +82,7 @@ const ContactUs = () => {
           nameReset();
           phoneReset();
           emailReset();
-          toast.success('Successfully added the Contact.', {
+          toast.success('Successfully submitted the form.', {
             position: 'top-center',
             autoClose: 5000,
             hideProgressBar: false,
