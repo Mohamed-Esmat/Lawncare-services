@@ -215,6 +215,42 @@
     margin-bottom: 2.25rem;
   }
 }
+
+/* 450px */
+@media screen and (max-width: 28.125em) {
+
+  .header__topMiddle-caption-top {
+    font-size: 2rem;
+  }
+
+  .header__topMiddle-caption-bottom {
+    font-size: .5rem;
+    letter-spacing: 0.65rem;
+  }
+
+  .header__centerMiddle-btn {
+    font-size: 1rem;
+  }
+
+  .header__title {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    width: 90%;
+  }
+
+  .header__title-top {
+    font-size: 3rem;
+  }
+
+  .header__title-bottom {
+    font-size: 3.5rem;
+  }
+
+  .header__centerMiddle-paragraph {
+    font-size: .9rem;
+    margin-bottom: 2rem;
+  }
+}
 /* 290px */
 @media screen and (max-width: 18.125em) {
   .header {
@@ -258,3 +294,4 @@
     margin-bottom: 2.25rem;
   }
 }
+

@@ -67,11 +67,15 @@ const ContactUs = () => {
           email: enteredEmail,
         };
 
-        const response = await axios.post('http://upskilling-egypt.com:3000/contact', formData, {
-          headers: {
-            'Content-Type': 'application/json',
+        const response = await axios.post(
+          'http://upskilling-egypt.com:3000/contact',
+          formData,
+          {
+            headers: {
+              'Content-Type': 'application/json',
+            },
           }
-        });
+        );
         if (response.status >= 200 && response.status < 300) {
           console.log(response);
           setIsSubmitting(false);

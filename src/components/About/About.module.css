@@ -95,10 +95,6 @@
   margin-left: auto;
 }
 
-/* @media screen and (max-width: 1476px) {
-
-} */
-
 @media screen and (max-width: 1142px) {
   .about__container-content {
     width: 80%;
@@ -127,6 +123,10 @@
     margin-bottom: 5rem;
   }
 
+  .button-container {
+    margin-top: 2rem;
+  }
+
   .button {
     margin-top: 3rem;
     padding: 1rem 5rem;
@@ -148,5 +148,31 @@
 
   .right .paragraph {
     width: 100%;
+  }
+}
+
+/* RESPONSIVE */
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+}
+
+/* 500px */
+@media screen and (max-width: 31.25em) {
+  .right,
+  .left {
+    width: 85%;
+  }
+
+  .image {
+    width: 79%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+/* 290px */
+@media screen and (max-width: 18.125em) {
+  .right,
+  .left {
+    width: 95%;
   }
 }

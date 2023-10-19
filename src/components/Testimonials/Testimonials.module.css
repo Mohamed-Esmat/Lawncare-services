@@ -13,14 +13,38 @@
   grid-template-columns: repeat(2, 1fr);
 
   gap: 2.8125rem; /*20px*/
-  padding: 20px;
+  padding: 1.25rem;
 }
 
+/* RESPONSIVE */
+/* 1142px */
+@media screen and (max-width: 71.375em) {
+  .container {
+    width: 85%;
+  }
+}
+/* Media query for screens smaller than a tablet 900px */
 @media screen and (max-width: 56.25em) {
 }
 
-@media (max-width: 768px) {
+/* 768px */
+@media (max-width: 48rem) {
+  .container {
+    width: 75%;
+  }
+
   .testimonials {
     grid-template-columns: 1fr;
+  }
+}
+/* 450px */
+@media screen and (max-width: 28.125em) {
+  .container {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .testimonials {
+    gap: 2rem;
   }
 }

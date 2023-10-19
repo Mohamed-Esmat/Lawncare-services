@@ -28,7 +28,7 @@
 }
 
 .formGroup {
-  margin-bottom: 10px;
+  margin-bottom: .625rem;/*10px*/
   width: 100%;
   text-align: center;
 }
@@ -107,3 +107,77 @@ input:focus {
   font-size: 0.875rem;
   font-weight: 400;
 }
+
+/* 1142px */
+@media screen and (max-width: 71.375em) {
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+}
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .contactUs {
+    margin-top: 3.125rem; /* 50px */
+    padding-bottom: 3.125rem; /* 50px */
+  }
+  
+  .container {
+    width: 85%;
+    margin: 0 auto;
+  }
+  
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contactForm {
+    margin-bottom: 2rem;
+  }
+  
+  .contactInfo {
+    align-items: center;
+  }
+}
+/* 450px */
+@media screen and (max-width: 28.125em) {
+  .contactUs {
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .container {
+    width: 90%;
+  }
+  
+  .contactContainer {
+    width: 100%;
+  }
+  
+  input {
+    margin: .32rem 0;
+    width: 80%;
+    font-size: .8rem;
+    padding-left: 1.3rem;
+  }
+  
+  .sendButton {
+    font-size: 1.125rem;
+    padding: .8rem 2.8125rem;
+  }
+  
+  .contactInfo-container {
+    gap: .8rem;
+  }
+  
+  .contactInfo-container span svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  
+  .contactInfo-container span p {
+    font-size: 0.775rem;
+  }
+}
+

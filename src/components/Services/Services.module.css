@@ -79,7 +79,6 @@
   .container {
     width: 80%;
   }
-  
 }
 /* 1142px */
 @media screen and (max-width: 71.375em) {
@@ -93,13 +92,33 @@
     flex-direction: column;
     gap: 2rem;
   }
-  
+
   .container {
     width: 60%;
   }
 }
-/* 290px */
-@media screen and (max-width: 18.125em) {
-  
+
+/* 768px */
+@media (max-width: 48rem) {
+  .container {
+    width: 65%;
+  }
+
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}
+/* 450px */
+@media screen and (max-width: 28.125em) {
+  .container {
+    width: 85%;
+  }
+}
+
+/* 300px */
+@media screen and (max-width: 20.625em) {
+  .container {
+    width: 98%;
+  }
 }
 
