@@ -68,7 +68,7 @@ const ContactUs = () => {
         };
 
         const response = await axios.post(
-          '../../../netlify/functions/proxy.js',
+          '../../../netlify/functions/proxy',
           formData,
           {
             headers: {
