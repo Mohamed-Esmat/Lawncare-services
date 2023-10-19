@@ -1,0 +1,38 @@
+.button {
+  border: none;
+  text-transform: capitalize;
+  background-color: #5180f6;
+  color: #fff;
+  border-radius: 4.44rem;
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.5rem 5.6rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  /* Hover styles here */
+}
+
+/* 1142px */
+@media screen and (max-width: 71.375em) {
+  .button {
+    font-size: 1.3rem;
+  }
+}
+
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  .button {
+    font-size: 1.1rem;
+  }
+}
+
+/* 290px */
+@media screen and (max-width: 18.125em) {
+  .button {
+    font-size: 1.1rem;
+  }
+}

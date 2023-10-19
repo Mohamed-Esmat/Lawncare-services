@@ -1,0 +1,147 @@
+/* .header {
+  width: 100%;
+  object-fit: cover;
+  height: 100vh; 
+  position: relative;
+  
+  display: grid;
+  place-items: center;
+
+}
+
+.header__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 95%;
+  z-index: -1;
+  
+  display: inline-block;
+  overflow: hidden;
+  background-image: url('../../assets/Vector7.png');
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.header__background-img {
+  width: 100%;
+  height: 100%;
+  
+  object-fit: cover;
+}
+
+.header__middleDiv-container {
+  height: 85%;
+}
+
+.header__middleDiv {
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 44.2rem;
+  height: 85%;
+}
+
+.header__topMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 7.8125rem;
+}
+
+.header__topMiddle-logo {
+  width: 5.19rem; 
+  height: 3.7rem; 
+}
+
+.header__topMiddle-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #6d91ee;
+  line-height: 118.5%;
+ 
+}
+
+.header__topMiddle-caption-top {
+  font-size: 3.75rem; 
+  font-weight: 300;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 118.5%; 
+}
+
+.header__topMiddle-caption-bottom {
+  font-size: 1.3125rem; 
+  font-weight: 800;
+  line-height: 118.5%;
+  letter-spacing: 0.991rem;
+}
+
+.header__centerMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__centerMiddle-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem; 
+  font-weight: 500;
+  border-radius: 1.25rem;
+  background-color: #6d91ee;
+  padding: 0.5rem 2.5rem; 
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.header__title-top {
+  color: var(--Gray-2, #4f4f4f);
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 100;
+  line-height: 93.229%;
+}
+
+.header__title-bottom {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 93.229%; 
+}
+
+.header__centerMiddle-paragraph {
+  color: var(--Gray-2, #4f4f4f);
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 141.667%;
+  margin-bottom: 1.25rem;/
+}
+
+.callToAction-btn {
+  display: inline-block;
+  background-color: #5180f6;
+  color: #fff;
+  border-radius: 4.44rem; 
+
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 1.5rem 5.6rem;
+} */

@@ -1,0 +1,260 @@
+.header {
+  height: 50rem; /* 890px */
+  position: relative;
+  overflow: hidden;
+}
+
+.header__background {
+  width: 66%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -9999;
+}
+
+.header__background-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.header__middleDiv-container {
+  height: 100%;
+  padding-top: 3rem;
+}
+
+.header__middleDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.header__topMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 6rem;
+}
+
+.header__topMiddle-logo {
+  width: 5.19rem;
+  height: 3.7rem;
+}
+
+.header__topMiddle-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #6d91ee;
+  line-height: 118.5%;
+}
+
+.header__topMiddle-caption-top {
+  font-size: 3.3rem;
+  font-weight: 300;
+  line-height: 118.5%;
+}
+
+.header__topMiddle-caption-bottom {
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 56.5%;
+  letter-spacing: 0.9rem;
+}
+
+.header__centerMiddle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__centerMiddle-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 1.25rem;
+  background-color: #6d91ee;
+  padding: 0.5rem 2.5rem;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.25rem;
+  margin-bottom: 3rem;
+}
+
+.header__title-top {
+  color: var(--Gray-2, #4f4f4f);
+  text-align: center;
+  font-size: 6rem;
+  font-weight: 100;
+  line-height: 93.229%;
+}
+
+.header__title-bottom {
+  color: var(--Gray-2, #4f4f4f);
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 93.229%;
+}
+
+.header__centerMiddle-paragraph {
+  color: var(--Gray-2, #4f4f4f);
+  width: 44%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 141.667%;
+  margin-bottom: 1.25rem;
+}
+
+/* 1476px */
+@media screen and (max-width: 92.25em) {
+  .header__background {
+    /* width: 67.15%; */
+    width: 88.15%;
+    height: 95%;
+  }
+
+  .header__background-img {
+    height: 95%;
+  }
+}
+/* 1142px */
+@media screen and (max-width: 71.375em) {
+  .header__background {
+    width: 100vw;
+    background-image: url('../../assets/Lawncare-services-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .header__topMiddle-caption-top {
+    font-size: 3rem;
+  }
+
+  .header__topMiddle-caption-bottom {
+    font-size: 1rem;
+  }
+
+  .header__centerMiddle-btn {
+    font-size: 1.2rem;
+  }
+
+  .header__title {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .header__title-top {
+    font-size: 5rem;
+  }
+
+  .header__title-bottom {
+    font-size: 5rem;
+  }
+
+  .header__centerMiddle-paragraph {
+    font-size: 1rem;
+    margin-bottom: 2.25rem;
+  }
+
+}
+/* Media query for screens smaller than a tablet 768px */
+@media screen and (max-width: 48em) {
+  .header__background {
+    width: 100vw;
+    background-image: url('../../assets/Lawncare-services-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    overflow: hidden;
+  }
+
+  .header__background-img {
+    display: none;
+  }
+
+  .header__topMiddle-caption-top {
+    font-size: 2.8rem;
+  }
+
+  .header__topMiddle-caption-bottom {
+    font-size: 0.8rem;
+  }
+
+  .header__centerMiddle-btn {
+    font-size: 1rem;
+  }
+
+  .header__title {
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+  }
+
+  .header__title-top {
+    font-size: 4rem;
+  }
+
+  .header__title-bottom {
+    font-size: 4rem;
+  }
+
+  .header__centerMiddle-paragraph {
+    width: 60%;
+    font-size: 1rem;
+    margin-bottom: 2.25rem;
+  }
+}
+/* 290px */
+@media screen and (max-width: 18.125em) {
+  .header {
+    height: 42rem;
+  }
+
+  .header__topMiddle {
+    margin-bottom: 4rem;
+  }
+
+  .header__topMiddle-caption-top {
+    font-size: 1.8rem;
+  }
+
+  .header__topMiddle-caption-bottom {
+    font-size: 0.5rem;
+    line-height: 156.5%;
+    letter-spacing: 0.5rem;
+  }
+
+  .header__centerMiddle-btn {
+    font-size: 0.8rem;
+  }
+
+  .header__title {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .header__title-top {
+    font-size: 3rem;
+  }
+
+  .header__title-bottom {
+    font-size: 3rem;
+  }
+
+  .header__centerMiddle-paragraph {
+    width: 60%;
+    font-size: 0.8rem;
+    margin-bottom: 2.25rem;
+  }
+}

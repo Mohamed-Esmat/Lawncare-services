@@ -1,0 +1,152 @@
+/* GENERAL STYLES */
+.about {
+  background-color: #eec04b;
+  background-image: url(../../assets/Rectangle262.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.clipped-vector {
+  position: absolute;
+  top: 0;
+  right: -50%;
+  width: 106.16%;
+  height: 100%;
+  background-color: #6d91ee;
+  transform: skewX(-30deg);
+  border-top-left-radius: 50px 50px;
+  z-index: -8888;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+}
+
+.container {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.about__container-content {
+  display: flex;
+}
+
+.title {
+  color: #fff;
+
+  text-shadow: 0px 4px 20px rgba(0, 0, 0, 0.15);
+  font-size: 4rem; /*64px*/
+  font-weight: 900;
+  line-height: 139.844%; /* 89.5px */
+  margin-bottom: 1.875rem; /* 30px */
+}
+
+.paragraph {
+  color: #fff;
+  font-size: 1rem; /* 18px */
+  font-weight: 600;
+  line-height: 145%; /* 24px */
+}
+
+.image {
+  width: 60%;
+  margin-top: 2.125rem; /* 34px */
+  margin-bottom: 9.125rem; /* 146px */
+}
+
+.button-container {
+  margin-bottom: 3.125rem; /* 50px */
+}
+/* LEFT STYLE */
+.left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left .title {
+  margin-top: 3.125rem; /* 50px */
+}
+
+/* RIGHT STYLE */
+.right {
+  width: 50%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right .paragraph {
+  width: 85%;
+  margin-left: auto;
+}
+
+/* @media screen and (max-width: 1476px) {
+
+} */
+
+@media screen and (max-width: 1142px) {
+  .about__container-content {
+    width: 80%;
+  }
+}
+/* Media query for screens smaller than a tablet 900px */
+@media screen and (max-width: 56.25em) {
+  .clipped-vector {
+    display: none;
+  }
+
+  .about__container-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title {
+    font-size: 3rem;
+    line-height: 139.844%;
+  }
+
+  .image {
+    width: 70%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+  }
+
+  .button {
+    margin-top: 3rem;
+    padding: 1rem 5rem;
+    border-radius: 4rem;
+    font-size: 1.2rem;
+  }
+  /* LEFT STYLE */
+  .left {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* RIGHT STYLE */
+  .right {
+    width: 70%;
+    text-align: center;
+  }
+
+  .right .paragraph {
+    width: 100%;
+  }
+}

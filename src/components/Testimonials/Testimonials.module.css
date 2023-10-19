@@ -1,0 +1,26 @@
+.testimonials-container {
+  text-align: center;
+}
+
+.container {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.testimonials {
+  /* background-color: aqua; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  gap: 2.8125rem; /*20px*/
+  padding: 20px;
+}
+
+@media screen and (max-width: 56.25em) {
+}
+
+@media (max-width: 768px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+  }
+}
