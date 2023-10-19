@@ -19,7 +19,7 @@ Welcome to the Upskilling Landing Page project! This project is designed to crea
 
 ## Demo
 
-You can check out a live demo of the Upskilling Landing Page [here]([https://your-demo-url.com](https://lawnservices-esmat.netlify.app)).
+You can check out a live demo of the Upskilling Landing Page [here](https://lawnservices-esmat.netlify.app).
 
 ## Features
 
