@@ -2,7 +2,7 @@
 
 Welcome to the Upskilling Landing Page project! This project is designed to create a modern and responsive landing page for Upskilling, a leading company in the world of professional development coaching and mentoring. The landing page includes several sections such as the header, about section, services section, testimonials, and contact information.
 
-![Upskilling Landing Page]([header-image.jpg](https://res.cloudinary.com/tawfeer/image/upload/v1697752507/Lawncare-services_pouwmv.png))
+![Upskilling Landing Page]([header-image.jpg](https://res.cloudinary.com/tawfeer/image/upload/v1697752507/Lawncare-services_pouwmv.png)
 
 ## Table of Contents
 
